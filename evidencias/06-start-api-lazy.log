@@ -1,0 +1,35 @@
+No current session found, using default AWS::AccountId
+Mounting HelloWorldFunction at http://127.0.0.1:3000/guias [POST]
+You can now browse to the above endpoints to invoke your functions. You do not need to restart/reload SAM CLI while working on your functions, changes will be reflected instantly/automatically. If you used sam build before running local commands, you will need to re-run sam build for the changes to be picked up. You only need to restart SAM CLI if you update your AWS SAM template
+2026-11-25 20:37:33 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2026-11-25 20:37:33 [33mPress CTRL+C to quit[0m
+2026-11-25 20:37:33 127.0.0.1 - - [25/Nov/2026 20:37:33] "[31m[1mGET / HTTP/1.1[0m" 403 -
+Invoking app.lambda_handler (python3.12)
+Local image is up-to-date
+Using local image: public.ecr.aws/lambda/python:3.12-rapid-x86_64.
+
+Mounting C:\Users\Allan\Desktop\rota-vital-serverless\.aws-sam\build\HelloWorldFunction as /var/task:ro,delegated, inside runtime container
+SAM_CONTAINER_ID: b8f9671b42a7e5147600f72f3416675b9d8aedddb6f34cc9158f3e4608f0da9a
+START RequestId: 083f094b-8222-4137-befa-bd89864556e9 Version: $LATEST
+END RequestId: 083f094b-8222-4137-befa-bd89864556e9
+REPORT RequestId: 083f094b-8222-4137-befa-bd89864556e9	Init Duration: 0.09 ms	Duration: 52.29 ms	Billed Duration: 53 ms	Memory Size: 128 MB	Max Memory Used: 128 MB	
+
+No Content-Type given. Defaulting to 'application/json'.
+2026-11-25 20:37:37 127.0.0.1 - - [25/Nov/2026 20:37:37] "[35m[1mPOST /guias HTTP/1.1[0m" 201 -
+Invoking app.lambda_handler (python3.12)
+Lambda function 'HelloWorldFunction' is already running
+START RequestId: 659ff33c-fe12-4472-bec2-0161c954cd93 Version: $LATEST
+END RequestId: 659ff33c-fe12-4472-bec2-0161c954cd93
+REPORT RequestId: 659ff33c-fe12-4472-bec2-0161c954cd93	Duration: 1.63 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 128 MB	
+
+No Content-Type given. Defaulting to 'application/json'.
+2026-11-25 20:37:38 127.0.0.1 - - [25/Nov/2026 20:37:38] "[35m[1mPOST /guias HTTP/1.1[0m" 201 -
+Invoking app.lambda_handler (python3.12)
+Lambda function 'HelloWorldFunction' is already running
+START RequestId: b47b508b-cb6a-4afa-ba8f-4aa3a7bb17ab Version: $LATEST
+END RequestId: b47b508b-cb6a-4afa-ba8f-4aa3a7bb17ab
+REPORT RequestId: b47b508b-cb6a-4afa-ba8f-4aa3a7bb17ab	Duration: 1.13 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 128 MB	
+
+No Content-Type given. Defaulting to 'application/json'.
+2026-11-25 20:37:39 127.0.0.1 - - [25/Nov/2026 20:37:39] "[35m[1mPOST /guias HTTP/1.1[0m" 201 -

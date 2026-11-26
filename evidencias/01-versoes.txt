@@ -1,0 +1,6 @@
+$ sam --version
+SAM CLI, version 1.174.1
+$ docker --version
+Docker version 29.5.2, build 79eb04c
+$ python --version
+Python 3.12.10

@@ -1,0 +1,9 @@
+$ curl -X POST http://127.0.0.1:3000/guias -H "Content-Type: application/json" -d '{"requisicaoId":"R-003","demorar":true}'
+{"message":"Internal server error"}
+
+[HTTP 502 em 10.363897s]
+
+--- log do sam local start-api ---
+You can now browse to the above endpoints to invoke your functions. You do not need to restart/reload SAM CLI while working on your functions, changes will be reflected instantly/automatically. If you used sam build before running local commands, you will need to re-run sam build for the changes to be picked up. You only need to restart SAM CLI if you update your AWS SAM template
+START RequestId: 66b28562-00bc-4508-8e51-9196ea5208b4 Version: $LATEST
+Function 'HelloWorldFunction' timed out after 3 seconds
